@@ -1,0 +1,27 @@
+.contact td{
+  width: 480px;
+  padding-left: 1rem;
+}
+.contact th{
+  text-align: right;
+  width: 150px;
+}
+.contact tr{
+  height: 7rem;
+}
+.text{
+  width: 480px;
+}
+
+.button{
+  background-color: #008B8B;
+  font-size: 3rem;
+  padding: 10px;
+  color: white;
+}
+.button:hover{
+  opacity: 0.6;
+}
+textarea{
+  width: 480px;
+}
