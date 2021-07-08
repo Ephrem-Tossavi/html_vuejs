@@ -88,8 +88,9 @@ ul.top_menu {
 }
 .news{
   height: 200px;
-  background-color: #FCE8E7;
-  padding: 20px;
+  background-color: #FCE8E7;￼
+
+  padding: 20px;bouton
   overflow: scroll;
   line-height: 2;
 }
@@ -112,7 +113,58 @@ ul.top_menu {
   content: "";
   display: block;
   clear: both;
+}html {
+  position: relative;
+  min-height: 100%;
 }
+body {
+  text-align: center;
+}
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
+/* ここから */
+header {
+  background-color: #2B2B2B;
+  height: 50px;
+}
+header ul {
+  margin: 0;
+  padding: 0;
+
+}
+header ul a {
+  color: white;
+
+}
+header li {
+  list-style: none;
+  float: left;
+  width: auto;
+}
+header ul:after {
+}
+/* ここまでがheader部分の実装 */
+.main-header img {
+  font-size: 13%;
+/* main画像（白い「Achieve」の文字の画像）部分の実装 */
+}
+.about {
+/* About Achieve部分の実装 */
+}
+/* ここから */
+.function {
+}
+.function-images {
+}
+.function-image {
+}
+/* ここまでがfunction部分の実装 */
+
 .image_area{
   width: 100%;
 }
