@@ -9,11 +9,7 @@ cgi.out("type" => "text/html", "charset" => "UTF-8") {
     <body>
     <table style = 'width:40%; text-align: left;'>
         <tr>
-          <th>Length</th>
-          <th>Weight</th>
-          <th>Give_for</th>
-          <th>Quality</th>
-          <th>Date</th>
+          <th>Length</th> <th>Weight</th> <th>Give_for</th> <th>Quality</th> <th>Date</th>
         </tr>
         #{get}
       <table>

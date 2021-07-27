@@ -4,13 +4,13 @@
   </head>
   <body>
     <h1>Informations sur la courge amère</h1>
-    <section class="courge_image">
-      <img src="image_courge.jpg">
+    <section class="courge_image" >
+      <img src="https://thumbs.dreamstime.com/z/courge-am%C3%A8re-138335806.jpg">
     </section>
     <% require 'pg' %>
     <% connection = PG::connect(dbname: "goya") %>
     <% connection.internal_encoding = "UTF-8" %>
-    
+
     <% result = connection.exec("SELECT * FROM crops where give_for != '自家消費';") %>
     <% data = [] %>
     <% result.each do |record| %>

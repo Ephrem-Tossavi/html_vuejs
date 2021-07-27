@@ -7,7 +7,7 @@ server = WEBrick::HTTPServer.new({
 ['INT', 'TERM'].each {|signal|
   Signal.trap(signal){ server.shutdown }
 }
-server.mount('/test', WEBrick::HTTPServlet::ERBHandler, 'sample.html.erb')
+server.mount('/', WEBrick::HTTPServlet::ERBHandler, 'sample.html.erb')
 
 server.mount('/sample.cgi', WEBrick::HTTPServlet::CGIHandler, 'sample.rb')
 server.start
